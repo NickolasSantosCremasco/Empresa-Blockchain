@@ -1,0 +1,26 @@
+li {
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color:white;
+    float: right;
+    margin-right: 10px;
+    margin-top: 5px;
+    padding: 10px;
+    font-size: 19px;
+}
+
+.obj {
+    margin-right: 40px;
+}
+
+
+.conteiner {
+    padding: 10px;
+    background-color:#8B008B;
+    border-bottom: 1px solid black;
+    height: 50px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}

@@ -1,13 +1,21 @@
+
 li {
     display: inline-block;
     border: 1px solid black;
     border-radius: 5px;
     background-color:white;
-    float: right;
     margin-right: 10px;
     margin-top: 5px;
     padding: 10px;
     font-size: 19px;
+    float:right;
+}
+
+.conteiner {
+    background-color: gray;
+    height: 900px;
+    margin-left: 240px;
+    margin-right: 240px;
 }
 
 .obj {
@@ -15,12 +23,16 @@ li {
 }
 
 
-.conteiner {
+.menu {
     padding: 10px;
-    background-color:#8B008B;
+    width: 1000px;
+    position: relative;
+    background-color: blue;
     border-bottom: 1px solid black;
+    margin: 0 auto;
     height: 50px;
-    margin-top: 10px;
-    margin-right: 10px;
-    margin-left: 10px;
+    top: 10px;
+    border-radius: 10px;
 }
+
+

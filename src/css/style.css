@@ -5,34 +5,44 @@ body {
 
 li {
     display: inline-block;
-    border: 1px solid black;
-    border-radius: 25px;
-    background-color:white;
     margin-right: 10px;
     margin-top: 18px;
-    padding: 10px;
+    padding: 50px;
     font-size: 23px;
     float: right;
 }
 
-li a {
-    color: black;
-}
 
-li:hover {
-    transform: scale(1.1);
-    transition: transform .4s;
-    background-color: #cae11d;
-}
 
 
 
 
 .conteiner {
-    background-color: gray;
-    height: 900px;
+    background-image: linear-gradient(to right, gray, white);
+    height: 700;
     margin-left: 240px;
     margin-right: 240px;
+}
+
+
+
+
+.menu {
+    padding: 14px;
+    width: 1300px;
+    height: 200px;
+    position: absolute;
+    background-color: rgb(11, 206, 236);
+    background-image: linear-gradient(to top right, rgb(0, 149, 255), rgb(0, 0, 0));
+    border: 1px solid black;
+    position: relative;
+    right: 135px;
+    margin: 0 auto;
+    top: 1px;
+    border-radius: 10px;
+    overflow: none;
+    
+    
 }
 
 .obj {
@@ -40,35 +50,43 @@ li:hover {
     margin-right: 60px;
 }
 
-
-.menu {
-    padding: 14px;
-    width: 1000px;
-    height: 150px;
-    position: absolute;
-    background-color: rgb(5, 160, 183);
-    border-bottom: 1px solid black;
-    position: relative;
-    margin: 0 auto;
-    top: 10px;
-    border-radius: 10px;
-    overflow: none;
-    
-    
+li a {
+    color: white;
 }
+
+li:hover  {
+    transform: scale(1.2);
+    transition: transform .4s;
+}
+
 
 .aba {
     position: relative;
-    top: 20%;
+    top: 17%;
+}
+
+.logo-sobre-nos {
+    position: absolute;
+    left: 820px;
+    bottom: 80px;
+    width: 50px;
+    border: 1px solid black;
+    border-radius: 100%;
+    
+}
+
+.logo-sobre-nos:hover {
+    transform: scale(1.1);
+    transition: transform .4s;
+
 }
 
 .logo {
     position:relative;
-    bottom:25px ;
+    bottom:30px ;
     left: 10px;
     border: 3px solid black;
     box-shadow: 1px 1px 7px 1px;
-    
     width: 14%;
     border-radius: 90px;
     

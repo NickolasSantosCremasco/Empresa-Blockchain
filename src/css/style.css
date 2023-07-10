@@ -2,6 +2,7 @@
 body {
     font-family: 'Outfit', sans-serif;
     background-color: aqua;
+    overflow-x: hidden;
 }
 
 li {
@@ -85,13 +86,13 @@ li a:hover  {
 .bitcoin {
     position: relative;
     float: right;
-    margin-right: 30px;
+    margin-right: 70px;
     margin-top: 200px;
     width: 500px;
     height: 300px;
-    border: 8px solid rgb(41, 194, 255);
+    border: 3px solid black;
     border-radius: 5px;
-    box-shadow: 3px 3px 10px 1px ;
+    box-shadow: 1px 1px 10px 2px ;
 
 }
 
@@ -118,9 +119,10 @@ figcaption:hover {
     width: 100%;
     height: 100%;
     transition: background-color .4s;
+    box-shadow: 1px 1px 15px blue;
 }
 
-div .texto1 {
+div .divisor-esquerda {
     position: absolute;
     height: 800px;
     width: 800px;
@@ -130,8 +132,122 @@ div .texto1 {
 
 }
 
+div .texto1 {
+    position:sticky;
+    top: 60px;
+    background-color: white;
+    float: left;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 68px 0px 0px 50px;
+    width: 700px;
+    height: 500px;
+}
+
+.titulo {
+    position: relative;
+    text-align: center;
+    margin-top: 0px;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+
+.fundo-do-paragrafo{
+    padding: 40px;
+    background-color: rgb(155, 155, 155);
+    font-size: 20px;
+    height: 360px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+ 
+}
+
+.linha2 {
+    position: absolute;
+    width: 48px;
+    height: 10px;
+    background-color: black;
+    border: 1px solid black;
+    box-shadow: 1px 1px 10px;
+    left: 700px;
+    bottom: 200px;
+}
 
 
+.aba-do-caderno {
+    position: relative;
+    margin: 0 auto;
+    height: 50px;
+    width:561px ;
+    background-color: red;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.subtitulo-caderno{
+    position: relative;
+    text-align: center;
+    top:30%;
+}
+.prego1 {
+    background-color: rgb(255, 255, 0);
+    position: relative;
+    float: right;
+    top: -30%;
+    right: 25px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 100%;
+}
+
+.prego2 {
+    background-color: rgb(255, 255, 0);
+    position: relative;
+    float: left;
+    top: -30%;
+    left: 25px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 100%;
+}
+
+.linha-horizontal-prego {
+    position: relative;
+    border: 1px solid black;
+    top: 50%;
+    width: 15px;
+    margin: 0 auto;
+}
+
+.linha-vertical-prego {
+
+    position: relative;
+    border: 1px solid black;
+    top: 6px;
+    height: 15px;
+    width: 0;
+    margin: 0 auto;
+    
+}
+
+.fundo-do-paragrafo p {
+    background-color: rgb(233, 233, 234);
+    border: 1px solid black;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin: 0 auto;
+    position: relative;
+    width: 500px;
+    height: 300px;
+    padding-left:30px ;
+    padding-right: 30px;
+    
+}
 
 
 
